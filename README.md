@@ -28,11 +28,20 @@ The dataset undergoes several preprocessing steps:
 ## Results
 
 #### - Regression and Classification Impact: The analysis identified 'Rating' as a critical factor for classification outcomes (analyzed through feature importance), whereas 'Class Name' significantly influenced regression results (analyzed through coefficients), although regression results were lackluster, and had high variability in residuals with no pattern.
+
+<p align="center">
 <img width="749" alt="image" src="https://github.com/arassiq/Predictive-Analysis-of-E-Commerce-Product-Reviews/assets/143036773/8f83432f-4a1b-437c-8bf6-2220bfd583ff">
+</p>
+<br/>
+
 #### - Model Performance: The inclusion of text data through Count Vectorizer unexpectedly reduced the accuracy of the models. This was likely due to the 'curse of dimensionality', where the models struggled with the complexity and sparsity of text-based features.
 #### - Visual Analysis: Residual plots were generated to visualize the differences between predicted and actual values, providing insights into model performance and potential biases, showing that our regression did not fit the data well.
-<img width="872" alt="image" src="https://github.com/arassiq/Predictive-Analysis-of-E-Commerce-Product-Reviews/assets/143036773/146f0271-a22e-42b0-bb00-a1418f13e7ed">
 
-Conclusion
+<p align="center">
+<img width="872" alt="image" src="https://github.com/arassiq/Predictive-Analysis-of-E-Commerce-Product-Reviews/assets/143036773/146f0271-a22e-42b0-bb00-a1418f13e7ed">
+</p>
+<br/>
+
+## Conclusion
 
 The project demonstrates the nuanced role of various features in predicting the outcomes of product reviews. While textual analysis presents promising avenues for enriching predictive models, it also introduces challenges that necessitate careful feature selection and model tuning. Our findings highlight the importance of understanding the trade-offs between adding complex features and maintaining model accuracy and interpretability.
